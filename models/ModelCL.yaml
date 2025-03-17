@@ -1,0 +1,39 @@
+title: ModelCL
+x-stoplight:
+  id: id746xx3bk99k
+x-tags:
+  - Testing2430
+type: object
+properties:
+  id:
+    type: string
+    x-stoplight:
+      id: b9i2de8xwh6zm
+  name:
+    x-stoplight:
+      id: qv0r56bnhhotu
+    enum: []
+  ModelVerify:
+    type: boolean
+    x-stoplight:
+      id: j5c6qzn3csrlz
+  refVerification:
+    type: array
+    x-stoplight:
+      id: 0e8zg8dtawjny
+    items:
+      x-stoplight:
+        id: om6s87mpcxf35
+      enum: []
+  mobile:
+    type: object
+    x-stoplight:
+      id: y74f9hzz3f1ho
+    additionalProperties:
+      x-stoplight:
+        id: j0g1y5emaau0v
+  tablet:
+    type: integer
+    x-stoplight:
+      id: v65lmmazxolcv
+description: ModelForCL
